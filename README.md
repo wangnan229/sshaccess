@@ -22,4 +22,11 @@ FTP_HOST_DIR=/home/ftpuser/pubkey                        # FTP保存所有主机
 FTP_PORT=21                                              # FTP端口
 LOCAL_DIR=$FTP_HOST_DIR                                  # 各主机上的从FTP公钥目录下载后存放的地址，一般跟其一致即可
 
-* 工具写的有点仓促，还请大神多多指教
+我的3台主机的执行后的截图：
+FTP主机名： ks-allinone
+非FTP主机名：VMmaster、node1
+FTP主机上的公钥目录：
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200414222828133.png)
+
+VMmaster上的从FTP目录下载下来的公钥目录，node1也一样：
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200414223044493.png)
