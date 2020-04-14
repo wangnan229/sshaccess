@@ -26,7 +26,9 @@ LOCAL_DIR=$FTP_HOST_DIR                                  # 各主机上的从FTP
 FTP主机名： ks-allinone
 非FTP主机名：VMmaster、node1
 FTP主机上的公钥目录：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200414222828133.png)
 
 VMmaster上的从FTP目录下载下来的公钥目录，node1也一样：
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200414223044493.png)
