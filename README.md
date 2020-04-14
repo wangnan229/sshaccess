@@ -13,6 +13,7 @@
 
 ## 配置
 配置项位于commonhostrun_1.sh：
+```shell
 HOSTIP=192.168.176.200,192.168.176.100,192.168.176.101   # 所有主机地址
 HOSTNAME=ks-allinone,VMmaster,node1                      # 所有主机名，与主机地址要一一位置对应，不能错了。
 FTP_HOST_IP=192.168.176.200                              # FTP主机地址
@@ -21,7 +22,7 @@ PASSWORD=0000                                            # FTP主机登录用户
 FTP_HOST_DIR=/home/ftpuser/pubkey                        # FTP保存所有主机公钥id_rsa_[主机名].pub的目录
 FTP_PORT=21                                              # FTP端口
 LOCAL_DIR=$FTP_HOST_DIR                                  # 各主机上的从FTP公钥目录下载后存放的地址，一般跟其一致即可
-
+```
 * 我的3台主机的执行后的截图：
 FTP主机名： ks-allinone
 非FTP主机名：VMmaster、node1
